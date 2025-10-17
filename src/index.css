@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default.css";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+body{
+	font-family: 'Poppins', sans-serif;
+	}
+.gradient-text {
+	background: linear-gradient(90deg, #06b6d4, #9333ea);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	}
+
+b{
+	color: aqua;
+	}
+ 
+
+.hero-banner {
+	background-image: url("/public/travel.png");
+	background-size: cover; /* Ensures the image covers the entire header */
+	background-position: center; /* Centers the image */
+	height: 300px; /* Set a specific height */
+	color: white;
+	text-align: center;
+	padding: 50px 20px;
+	}
+
+.hero-banner:hover {
+	transform: scale(1.05); /* Slight zoom on hover */
+	}
